@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kirpal Singh</title>
+
+    <!--Site Styles-->
+
+    <!-- CSS Libraries -->
+    <link href="/styles/bootstrap.css" rel="stylesheet" />
+    <link href="/styles/font-awesome.css" rel="stylesheet" />
+
+    <!--Custom CSS-->
+    <link href="/styles/custom/site.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="siteNavigationWrapper">
+        <ul class="siteNavigationContainer">
+            <li class="siteNavigationMenu active" onclick="app.showSection(this)" target-div="info" id="infoLink">
+                <span class="fa fa-3x fa-home"></span>
+            </li>
+            <li class="siteNavigationMenu" onclick="app.showSection(this)" target-div="code" id="codeLink">
+                <span class="fa fa-3x fa-code"></span>
+            </li>
+            <li class="siteNavigationMenu" onclick="app.showSection(this)" target-div="work" id="workLink">
+                <span class="fa fa-3x fa-briefcase"></span>
+            </li>
+            <li class="siteNavigationMenu" onclick="app.showSection(this)" target-div="education" id="educationLink">
+                <span class="fa fa-3x fa-graduation-cap"></span>
+            </li>
+            <li class="siteNavigationMenu" onclick="app.showSection(this)" target-div="contact" id="contactLink">
+                <span class="fa fa-3x fa-phone-square"></span>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="showDetailsWrapper" id="showDetails">
+        <section class="showDetailsContainer">
+            <header class="detailsHeader">
+                <ul class="introWrapper">
+                    <li class="introContainer nameContainer">Kirpal Singh</li>
+                    <li class="introContainer designationContainer">Web Developer @ Amazon </li>
+                </ul>
+            </header>
+            <div class="detailsBody">
+
+                <p>
+                    I'm an amateur web developer, working my way up to making marks on this overwhelmingly enormous INTERNET.
+                    <br><br> I love listening to Music, watching movies, and <b>YouTubing</b>.
+                </p>
+
+            </div>
+        </section>
+
+        <section class="showDetailsContainer">
+            <header class="detailsHeader">
+                <ul class="introWrapper">
+                    <li class="introContainer nameContainer">Web Developer</li>
+                    <li class="introContainer designationContainer">Amazon Development Center, India</li>
+                </ul>
+            </header>
+            <div class="detailsBody">
+                <ul class="codeShowcaseWrapper">
+                    <li class="codeShowcase hexagon jsCell">
+                        <span class="borderLine topLeftLine"></span>
+                        <span class="borderLine topRightLine"></span>
+                        <span class="middlePart">
+                          <b class="languageAbbr">js</b> 
+                           </span>
+                        <span class="borderLine bottomLeftLine"></span>
+                        <span class="borderLine bottomRightLine"></span>
+                    </li>
+                    <li class="codeShowcase hexagon ngCell">
+                        <span class="borderLine topLeftLine"></span>
+                        <span class="borderLine topRightLine"></span>
+                        <span class="middlePart">
+                          <b class="languageAbbr">ng</b>                            
+                       </span>
+                        <span class="borderLine bottomLeftLine"></span>
+                        <span class="borderLine bottomRightLine"></span>
+                    </li>
+                    <li class="codeShowcase hexagon nodeCell">
+                        <span class="borderLine topLeftLine"></span>
+                        <span class="borderLine topRightLine"></span>
+                        <span class="middlePart">                           
+                          <b class="languageAbbr">node</b>                            
+                       </span>
+                        <span class="borderLine bottomLeftLine"></span>
+                        <span class="borderLine bottomRightLine"></span>
+                    </li>
+                    <li class="codeShowcase hexagon cssCell">
+                        <span class="borderLine topLeftLine"></span>
+                        <span class="borderLine topRightLine"></span>
+                        <span class="middlePart">
+                          <b class="languageAbbr">css</b>                            
+                       </span>
+                        <span class="borderLine bottomLeftLine"></span>
+                        <span class="borderLine bottomRightLine"></span>
+                    </li>
+                    <li class="codeShowcase hexagon htmlCell">
+                        <span class="borderLine topLeftLine"></span>
+                        <span class="borderLine topRightLine"></span>
+                        <span class="middlePart">
+                          <b class="languageAbbr">html</b>                            
+                       </span>
+                        <span class="borderLine bottomLeftLine"></span>
+                        <span class="borderLine bottomRightLine"></span>
+                    </li>
+                </ul>
+
+            </div>
+        </section>
+
+        <section class="showDetailsContainer">
+            <header class="detailsHeader">
+                <ul class="introWrapper">
+                    <li class="introContainer nameContainer">Industrial Imprints</li>
+                    <li class="introContainer designationContainer">2 Years and 7 months </li>
+                </ul>
+            </header>
+            <div class="detailsBody">
+                <aside class="pie">
+                    <ul class="companysWrapper">
+                        <li class="companySector maqSector" title="Dec 2013 - June 2016">MAQ (2.5 Yrs)</li>
+                        <li class="companySector amazonSector" title="June 2016 - till date">Amazon (1 mth)</li>
+                    </ul>
+                </aside>
+
+            </div>
+        </section>
+
+        <section class="showDetailsContainer">
+            <header class="detailsHeader">
+                <ul class="introWrapper">
+                    <li class="introContainer nameContainer">Engineer</li>
+                    <li class="introContainer designationContainer">Computer Science & Technology</li>
+                </ul>
+            </header>
+            <div class="detailsBody">
+
+                <section class="barchartWrapper">
+                    <header class="yAxisHeader">
+                        <ul class="axisLine">
+                            <li class="axisPoint">100%</li>
+                            <li class="axisPoint">80%</li>
+                            <li class="axisPoint">60%</li>
+                            <li class="axisPoint">40%</li>
+                            <li class="axisPoint">20%</li>
+                        </ul>
+                    </header>
+                    <ul class="barchartContainer">
+                        <li class="educationBars highSchool">High School (90)</li>
+                        <li class="educationBars seniorSchool">Pre College (87.8)</li>
+                        <li class="educationBars bachelorCollege">College (67.4)</li>
+                    </ul>
+                    <footer class="xAxisFooter">
+                        <ul class="axisLine">
+                            <li class="axisPoint">2006</li>
+                            <li class="axisPoint">2007</li>
+                            <li class="axisPoint">2008</li>
+                            <li class="axisPoint">2009</li>
+                            <li class="axisPoint">2010</li>
+                            <li class="axisPoint">2011</li>
+                            <li class="axisPoint">2012</li>
+                            <li class="axisPoint">2013</li>
+                        </ul>
+                    </footer>
+                </section>
+
+            </div>
+        </section>
+
+        <section class="showDetailsContainer">
+            <header class="detailsHeader">
+                <ul class="introWrapper">
+                    <li class="introContainer nameContainer">Ping Me</li>
+                    <li class="introContainer designationContainer">Happy to help :)</li>
+                </ul>
+            </header>
+            <div class="detailsBody">
+                <div class="shareFormContainer">
+                    <a class="shareIconWrapper " target="_blank" href="https://facebook.com/kayirpal">
+                        <span class="fa  fa-cog rotatingShareIcon fa-spin" style="color: rgb(58, 87, 149);"></span>
+                        <i class="shareIcon fa fa-facebook" style="background-color: rgb(58, 87, 149);"></i>
+                    </a>
+                    <a class="shareIconWrapper" target="_blank" href="mailto:kayirpal@gmail.com">
+                        <span class="fa  fa-cog rotatingShareIcon fa-counter-spin" style="color: rgb(234, 67, 53);"></span>
+                        <i class="shareIcon fa fa-envelope" style="background-color: rgb(234, 67, 53);"></i>
+                    </a>
+                 
+                    <a class="shareIconWrapper" target="_blank" href="https://github.com/kayirpal">
+                        <span class="fa  fa-cog rotatingShareIcon fa-counter-spin" style="color: rgb(84, 154, 31);"></span>
+                        <i class="fa fa-github shareIcon" style="background-color: rgb(84, 154, 31);"></i>
+                    </a>
+                    <a class="shareIconWrapper" target="_blank" href="https://twitter.com/kayirpal">
+                        <span class="fa  fa-cog rotatingShareIcon fa-spin" style="color: rgb(40, 169, 224);"></span>
+                        <i class="shareIcon fa fa-twitter" style="background-color: rgb(40, 169, 224);"></i>
+                    </a>
+                    
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="/scripts/custom/site.js">
+
+    </script>
+</body>
+
+</html>
